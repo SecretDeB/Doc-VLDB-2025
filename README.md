@@ -4,7 +4,7 @@ This repository includes the implementation of the DocStar framework.
 
 <b> NOTICE:</b> This is an academic proof-of-concept prototype and has not received careful code review. This implementation is NOT ready for production use.
 
-[fig_arch.pdf](https://github.com/user-attachments/files/21206917/fig_arch.pdf)
+<img width="720" height="187" alt="fig_arch" src="https://github.com/user-attachments/assets/782e1187-8501-4cc4-87b9-d4ae46761abc" />
 
 
 ## Dependencies
