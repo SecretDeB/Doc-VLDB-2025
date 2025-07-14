@@ -36,7 +36,9 @@ Once all the servers are up (say, "Server is listening"), execute the following 
 java src/opt/Client.java
 ```
 
-Upon execution of 'Client.java,' the user will be prompted to enter the client ID and search keyword. These parameters will be used to retrieve the document the client ID has access to and contains the keyword. Results of the document search will be written in files saved under the 'result/' folder.
+Upon execution of 'Client.java,' the user will be prompted to enter the client ID and search keyword. These parameters will be used to retrieve the document the client ID has access to and contains the keyword. 
+
+Results of the document search will be written in files saved under the 'result/' folder.
 
 One can also change the configuration parameters to run the programs on different numbers of threads, file count, keyword count, etc., by modifying the '/config/Common.properties' file
 
@@ -52,9 +54,11 @@ To build, one needs to install the following:
 
 ### Setup
 For the same share data, execute below to perform FHE based operation :
+```
 cmake -S . -B build
 cd build
 make or make install
+```
 
 Within the program, the user can input the search keyword to fetch the documents containing the keyword.
 
