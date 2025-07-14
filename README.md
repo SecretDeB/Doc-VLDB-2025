@@ -45,7 +45,7 @@ One can also change the configuration parameters to run the programs on differen
 ### To run on AWS machines
 We assume the users are aware of the process of creating an EC2 instance on AWS. Upon creation of five AWS machines, similar to running the program on the local machine, prepare AWS machines with required dependencies. Set the `port` and `host_ip` for each AWS server in the '/config/Common.properties' file. Copy the share of a respective server into their '/data/share' folder. Similar to the compile and execute step above, execute the algorithm to search for a document with a keyword.
 
-### To perform fully homomorphic encryption(FHE) based search
+#To perform fully homomorphic encryption(FHE) based search
 ## Dependencies
 To build, one needs to install the following:
 * Microsoft Seal (4.1) (https://github.com/microsoft/SEAL)
