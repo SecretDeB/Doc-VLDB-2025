@@ -52,7 +52,7 @@ To build, one needs to install the following:
 * C++ 
 * Cmake
 
-#### Setup
+### Setup
 For the same share data, execute below to perform FHE based operation :
 ```
 cmake -S . -B build
